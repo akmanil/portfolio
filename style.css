@@ -340,3 +340,13 @@ form .btn2{
     border: #0b0b0b;
    
 }
+
+.copyright{
+    width:100%;
+    text-align: center;
+    padding:25px 0;
+    background: #7bbac6;
+    font-weight: 300;
+    color: #262424;
+    margin-top: 40px;
+}
