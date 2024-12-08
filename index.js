@@ -11,3 +11,16 @@ function opentab(tabname){
     event.currentTarget.classList.add("active-link");
     document.getElementById(tabname).classList.add("active-tab");
 }
+
+// ...for optimizing the website in different devices...
+
+var sidemeu = document.getElementById("sidemenu")
+
+function openmenu(){
+    sidemeu.style.right ="0";
+
+}
+function closemenu(){
+    sidemeu.style.right ="-200px";
+    
+}
